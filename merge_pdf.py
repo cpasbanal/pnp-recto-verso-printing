@@ -5,6 +5,9 @@
 # Look for files in directory passed as argument
 # into subfolders /recto and /verso
 # will merge images into a pdf to enable recto verso printing
+# Examples of script calls
+#   python3 merge_pdf.py <folder> ## where <folder> contains two folders recto and verso
+#   python3 merge_pdf.py <folder> board ## to change width of images
 
 
 ###########
